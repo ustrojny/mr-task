@@ -63,9 +63,11 @@ function Home() {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum
           </StyledParagraph>
-          <StyledButton onClick={() => console.log("clicked")}>
+          <SecondSection />
+          {/* <StyledButton onClick={() => console.log("clicked")}>
             Zobacz więcej
-          </StyledButton>
+          </StyledButton> */}
+         
         </StyledBox>
       </StyledHome>
       <Routes>
